@@ -38,12 +38,13 @@
 		EB177C3D1CE5E3A3001566FD /* CampFire.m in Sources */ = {isa = PBXBuildFile; fileRef = EB177C3C1CE5E3A3001566FD /* CampFire.m */; };
 		EB177C881CE5E971001566FD /* NestedSquare.m in Sources */ = {isa = PBXBuildFile; fileRef = EB177C871CE5E971001566FD /* NestedSquare.m */; };
 		EBC2C88B1CEC5EB8008CAEF8 /* adagio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EBC2C88A1CEC5EB8008CAEF8 /* adagio.mp3 */; };
-		EBC2C88D1CEC5ED1008CAEF8 /* Football_Ball.png in Resources */ = {isa = PBXBuildFile; fileRef = EBC2C88C1CEC5ED1008CAEF8 /* Football_Ball.png */; };
 		EBC2C89A1CEC604E008CAEF8 /* RollingBall.m in Sources */ = {isa = PBXBuildFile; fileRef = EBC2C8991CEC604E008CAEF8 /* RollingBall.m */; };
 		EBC2C89E1CEC6E42008CAEF8 /* earth.png in Resources */ = {isa = PBXBuildFile; fileRef = EBC2C89C1CEC6E42008CAEF8 /* earth.png */; };
 		EBC2C89F1CEC6E42008CAEF8 /* sun.ico in Resources */ = {isa = PBXBuildFile; fileRef = EBC2C89D1CEC6E42008CAEF8 /* sun.ico */; };
 		EBC2C8A21CEC6E57008CAEF8 /* EarthAroundSun.m in Sources */ = {isa = PBXBuildFile; fileRef = EBC2C8A11CEC6E57008CAEF8 /* EarthAroundSun.m */; };
 		EBC2C8A41CEC7D42008CAEF8 /* moon.png in Resources */ = {isa = PBXBuildFile; fileRef = EBC2C8A31CEC7D42008CAEF8 /* moon.png */; };
+		EBF1DAEE1CED7BD300E9FFED /* DropBall.m in Sources */ = {isa = PBXBuildFile; fileRef = EBF1DAED1CED7BD300E9FFED /* DropBall.m */; };
+		EBF1DAF01CED7C7300E9FFED /* football.png in Resources */ = {isa = PBXBuildFile; fileRef = EBF1DAEF1CED7C7300E9FFED /* football.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -89,7 +90,6 @@
 		EB177C861CE5E971001566FD /* NestedSquare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NestedSquare.h; sourceTree = "<group>"; };
 		EB177C871CE5E971001566FD /* NestedSquare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NestedSquare.m; sourceTree = "<group>"; };
 		EBC2C88A1CEC5EB8008CAEF8 /* adagio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = adagio.mp3; sourceTree = "<group>"; };
-		EBC2C88C1CEC5ED1008CAEF8 /* Football_Ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Football_Ball.png; sourceTree = "<group>"; };
 		EBC2C8981CEC604E008CAEF8 /* RollingBall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RollingBall.h; sourceTree = "<group>"; };
 		EBC2C8991CEC604E008CAEF8 /* RollingBall.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RollingBall.m; sourceTree = "<group>"; };
 		EBC2C89C1CEC6E42008CAEF8 /* earth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = earth.png; sourceTree = "<group>"; };
@@ -97,6 +97,9 @@
 		EBC2C8A01CEC6E57008CAEF8 /* EarthAroundSun.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EarthAroundSun.h; sourceTree = "<group>"; };
 		EBC2C8A11CEC6E57008CAEF8 /* EarthAroundSun.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EarthAroundSun.m; sourceTree = "<group>"; };
 		EBC2C8A31CEC7D42008CAEF8 /* moon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = moon.png; sourceTree = "<group>"; };
+		EBF1DAEC1CED7BD300E9FFED /* DropBall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropBall.h; sourceTree = "<group>"; };
+		EBF1DAED1CED7BD300E9FFED /* DropBall.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropBall.m; sourceTree = "<group>"; };
+		EBF1DAEF1CED7C7300E9FFED /* football.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = football.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,8 +152,9 @@
 				EBC2C8891CEC5D23008CAEF8 /* RollingBall */,
 				EB12B28C1CEB0846007F08C5 /* HexColor */,
 				EB177C851CE5E94F001566FD /* NestedSquare */,
-				EBC2C89B1CEC6E1A008CAEF8 /* EarthAroundSun */,
 				EB177C3A1CE5E382001566FD /* BurnFire */,
+				EBC2C89B1CEC6E1A008CAEF8 /* EarthAroundSun */,
+				EBF1DAEB1CED7BAC00E9FFED /* DropBall */,
 				EB177BFF1CE5E298001566FD /* Assets.xcassets */,
 				EB177C011CE5E298001566FD /* LaunchScreen.storyboard */,
 				EB177C041CE5E298001566FD /* Info.plist */,
@@ -228,7 +232,7 @@
 		EBC2C8891CEC5D23008CAEF8 /* RollingBall */ = {
 			isa = PBXGroup;
 			children = (
-				EBC2C88C1CEC5ED1008CAEF8 /* Football_Ball.png */,
+				EBF1DAEF1CED7C7300E9FFED /* football.png */,
 				EBC2C8981CEC604E008CAEF8 /* RollingBall.h */,
 				EBC2C8991CEC604E008CAEF8 /* RollingBall.m */,
 			);
@@ -245,6 +249,15 @@
 				EBC2C8A11CEC6E57008CAEF8 /* EarthAroundSun.m */,
 			);
 			name = EarthAroundSun;
+			sourceTree = "<group>";
+		};
+		EBF1DAEB1CED7BAC00E9FFED /* DropBall */ = {
+			isa = PBXGroup;
+			children = (
+				EBF1DAEC1CED7BD300E9FFED /* DropBall.h */,
+				EBF1DAED1CED7BD300E9FFED /* DropBall.m */,
+			);
+			name = DropBall;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -308,7 +321,6 @@
 				EB177C381CE5E378001566FD /* campFire16.gif in Resources */,
 				EBC2C88B1CEC5EB8008CAEF8 /* adagio.mp3 in Resources */,
 				EB177C351CE5E378001566FD /* campFire13.gif in Resources */,
-				EBC2C88D1CEC5ED1008CAEF8 /* Football_Ball.png in Resources */,
 				EB177C341CE5E378001566FD /* campFire12.gif in Resources */,
 				EB177C2B1CE5E378001566FD /* campFire03.gif in Resources */,
 				EB177C2F1CE5E378001566FD /* campFire07.gif in Resources */,
@@ -323,6 +335,7 @@
 				EB177C291CE5E378001566FD /* campFire01.gif in Resources */,
 				EB177C001CE5E298001566FD /* Assets.xcassets in Resources */,
 				EB177C331CE5E378001566FD /* campFire11.gif in Resources */,
+				EBF1DAF01CED7C7300E9FFED /* football.png in Resources */,
 				EB177C2A1CE5E378001566FD /* campFire02.gif in Resources */,
 				EBC2C8A41CEC7D42008CAEF8 /* moon.png in Resources */,
 				EB177C361CE5E378001566FD /* campFire14.gif in Resources */,
@@ -340,6 +353,7 @@
 			files = (
 				EB12B29C1CEB153B007F08C5 /* ColorView.m in Sources */,
 				EB177C3D1CE5E3A3001566FD /* CampFire.m in Sources */,
+				EBF1DAEE1CED7BD300E9FFED /* DropBall.m in Sources */,
 				EB177C141CE5E2E0001566FD /* BootLogic.m in Sources */,
 				EB12B28F1CEB0862007F08C5 /* DemoColor.m in Sources */,
 				EB177C161CE5E2E0001566FD /* MainScreen.m in Sources */,

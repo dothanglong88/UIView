@@ -22,12 +22,13 @@
                                     @{TITLE: @"Rolling Ball", CLASS: @"RollingBall"}
                           ]};
     NSDictionary* NSTimer = @{SECTION: @"NSTimer", MENU: @[
-                                    @{TITLE: @"Earth around Sun", CLASS: @"EarthAroundSun"}
+                                    @{TITLE: @"Earth around Sun", CLASS: @"EarthAroundSun"},
+                                    @{TITLE: @"Drop Ball", CLASS: @"DropBall"}
                                     ]};
     
     mainScreen.menu = @[basic, NSTimer];
-    mainScreen.title = @"Bootstrap App";
-    mainScreen.about = @"This is demo bootstrap demo app. It is collection of sample code of AVFoundation";
+    mainScreen.title = @"UIView Demo";
+    mainScreen.about = @"This is UIView demo app. It is collection of sample code of AVFoundation";
     //--------- End of customization -----------
     UINavigationController* nav = [[UINavigationController alloc] initWithRootViewController: mainScreen];
     

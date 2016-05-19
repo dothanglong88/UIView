@@ -18,6 +18,8 @@
     NSTimer *timer;
     CGFloat angle; // quay qua bong
     CGFloat ballRadius;
+    CGFloat maxWidth;
+    BOOL rollRightToLeft;
 }
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -28,15 +30,11 @@
 
 - (void) addBall{
     CGSize mainViewSize = self.view.bounds.size;
-    ball = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"Football_Ball.png"]];
-    //change width and height of frame
-    CGRect frame = ball.frame;
-    frame.size.width = 64;
-    frame.size.height = 64;
-    ball.frame = frame;
-    //
+    ball = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"football.png"]];
     ballRadius = 32.0;
+    rollRightToLeft = false;
     ball.center = CGPointMake(ballRadius, mainViewSize.height * 0.5);
+    maxWidth = mainViewSize.width - ballRadius;
     [self.view addSubview:ball];
     
 }
@@ -44,8 +42,20 @@
 - (void) rollBall{
     CGFloat deltaAngle = 0.1;
     angle += deltaAngle;
+    if (!rollRightToLeft){
     ball.transform = CGAffineTransformMakeRotation(angle);
     ball.center = CGPointMake(ball.center.x + ballRadius * deltaAngle, ball.center.y);
+        if (ball.center.x >= maxWidth){
+            rollRightToLeft = true;
+        }
+    }else{
+        ball.transform = CGAffineTransformMakeRotation(-angle);
+        ball.center = CGPointMake(ball.center.x - ballRadius * deltaAngle, ball.center.y);
+        if (ball.center.x <= ballRadius){
+            rollRightToLeft = false;
+        }
+    }
+    
     
 }
 
